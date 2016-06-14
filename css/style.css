@@ -1,0 +1,55 @@
+
+/*====== RESET BROWSER SPACINGS =====*/
+
+ul, section, nav, body {
+  padding: 0;
+  margin: 0;
+}
+
+/* ====== Helpers =========*/
+html {
+  box-sizing: border-box;
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+}
+/*====== Main Styles =====*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; /*baseline text size of whole page*/
+}
+nav ul {
+  font-size: .75em; /* equivalent to 12px*/
+  font-weight:lighter;
+  letter-spacing:.05em;
+}
+h2 {
+  font-size: 1em; /*equivalent to 32 px, or 2 x 16 = 32*/
+  font-weight:lighter;
+  letter-spacing:.05em;
+}
+
+h1 {
+  font-size: 2em; /*equivalent to 32 px, or 2 x 16 = 32*/
+  font-weight:600; /*thickness of font*/
+  letter-spacing: .1em; /*equivalent to .1 x [default letter-spacing of Open Sans Font] */
+
+}
+h2 {
+  font-size: 1.2em; /*equivalent to 19.2 px, or 1.2 x 16 = 19.2*/
+  font-weight:lighter;
+  letter-spacing:.05em;
+}
+li {
+  list-style: none;
+}
+potato {
+  font-weight: bold;
+}
+.logo {
+  font-size: 1.5em; /*equivalent to 24 px, or 1.5 x 16 = 24*/
+  font-weight:bold;
+  letter-spacing:.05em;
+
+}
